@@ -1,0 +1,56 @@
+.header{
+    display:flex;
+    padding:1.2rem 4rem;
+    justify-content:space-between;
+    align-items:center;
+    background-color:var(--lightBlack);
+    /* position:fixed; */
+    /* width: 100%; */
+}
+.header .logo{
+    font-size: 2rem;
+    font-weight:700;
+    color:var(--white);
+    text-decoration: none;
+}
+.header .logo span{
+    color:var(--primary);
+}
+
+.header .search{
+    background:var(--white);
+    display: flex;
+    align-items:center;
+    gap:.4rem;
+    padding:0.5rem;
+    border-radius:0.1rem;
+}
+.header .search input{
+    width:30rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+}
+.header .search svg{
+    color:var(--primary);
+    font-size: 1.4rem;
+}
+.header .profile{
+    display: flex;
+}
+.header .profile :is(.saved , .cart , .profileIcon) {
+    color:var(--primary);
+    font-size: 1.4rem;
+    margin:0 .4rem;
+}
+.header .profile div {
+    position: relative;
+}
+.header .profile div span{
+    position: absolute;
+    right: 30%;
+    top: 0;
+    transform: translateY(-75%);
+    color: green;
+    font-size: 0.9rem;
+}

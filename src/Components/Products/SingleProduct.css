@@ -1,0 +1,70 @@
+.singleProduct{
+    display: flex;
+    background:var(--white);
+    padding:1rem 4rem;
+}
+.singleProduct .image{
+    padding:1.2rem;
+    width: 30%;
+}
+
+.singleProduct .image img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+}  
+.singleProduct .other{
+    padding:.7rem;
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+}
+.singleProduct .other .rating{
+    font-size: 1rem;
+    padding:0.7rem 0;
+    border: 0.05rem solid #363636;
+    border-radius: 0.4rem;
+    max-width: fit-content;
+}
+.singleProduct .other .rating span{
+    text-align: center;
+    margin: 0 0.5rem;
+}
+.singleProduct .other .rating span svg{
+    color: var(--rateStar);
+    text-align: center;
+}
+.singleProduct .other .title{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.singleProduct .other .category{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+.singleProduct .other .discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #181818;;
+}
+.singleProduct .other .price{
+    margin: 0.12rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:var(--primary);
+}
+.singleProduct .other .price span{
+    color:var(--black);
+}
+.singleProduct .other button{
+    padding:0.6rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color:var(--white);
+    background:var(--primary);
+    border: none;
+    border-radius: 0.2rem;
+    width: fit-content;
+}   

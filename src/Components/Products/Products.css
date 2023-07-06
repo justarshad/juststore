@@ -1,0 +1,70 @@
+.products{
+    display: flex;
+}
+.products .filters {
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+    width: 22rem;
+}
+.products .filters .filter-title{
+    font-size:1.2rem;
+    color: var(--black);
+    font-weight: 700;
+}
+.products .filters > div{
+    margin: 0.8rem 0;
+
+}
+.products .filters > div > span, .products .filters > span{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: block;
+    color: var(--lightBlack);
+    margin: 0.3rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.products .filters > div > span:hover{
+    color: var(--primary);
+}
+.products .filters .rating > span{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.products .filters .rating > span .stars{
+    display: flex;
+    align-items: center;
+}
+.products .filters .rating > span span .filled{
+    color: var(--rateStar);
+}
+
+/* .products .products-wraper{
+    display: grid;
+    gap:1.4rem;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-auto-rows: 32rem;
+}
+.products .category{
+    display: flex;
+    width: 100%;
+    padding: 2rem 25%;
+    justify-content: space-between;
+}
+.products .category span{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+} */
+.products .productsWraper{
+    display: flex;
+    gap:1.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem 0.2rem;
+}
+.products .productsWraper .productsTitle{
+    font-size: 2rem;
+}
